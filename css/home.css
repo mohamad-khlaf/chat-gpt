@@ -1,6 +1,9 @@
 .tow {
     height: 100vh;
 }
+section {
+    overflow: hidden;
+}
 ul li {
     list-style: none;
 }
