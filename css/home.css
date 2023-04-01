@@ -203,10 +203,15 @@ h2::after {
     }
 }
 .testimonials-section .img img {
-    max-width: 250px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+}
+@media (min-width: 768px) {
+    .testimonials-section .img img { 
+        /* max-width: 250px; */
+    }
+    
 }
 
 .testimonials-section .img img:hover {
